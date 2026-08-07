@@ -12,4 +12,3 @@ h1 small{font-size:.48em;font-weight:650;color:#d3cdd0;letter-spacing:.01em}
 .ghost{border-color:#493332}.stop{border-color:#79332e;background:#2b1515}
 .input-picker select{max-width:240px;background:#0e0e10;color:#f8f4ed;border:1px solid #493332;border-radius:9px;padding:8px 28px 8px 10px}.mic-setup{padding:8px 11px;font-size:.78rem}
 @media(max-width:700px){h1{display:block}.stagefront{display:block}h1 small{font-size:.46em}.header-actions{flex-wrap:wrap;justify-content:flex-end}.header-actions button{font-size:.7rem}}
-
