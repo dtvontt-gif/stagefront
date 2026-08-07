@@ -1,0 +1,14 @@
+Sound effects included in this app were downloaded from Mixkit and are used
+under the Mixkit Free License: https://mixkit.co/license/
+
+Included clips:
+- Small group cheer and applause (Mixkit #518)
+- Conference audience clapping strongly (Mixkit #476)
+- End of show clapping crowd (Mixkit #477)
+- One man clapping (Mixkit #482)
+- Crowd laugh (Mixkit #424)
+- Wrong answer bass buzzer (Mixkit #948)
+
+Mixkit states its free sound effects may be used in personal and commercial
+projects without attribution. This file is retained for provenance.
+
