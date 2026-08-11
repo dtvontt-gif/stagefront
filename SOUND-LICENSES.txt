@@ -12,6 +12,12 @@ Included clips:
 Mixkit states its free sound effects may be used in personal and commercial
 projects without attribution. This file is retained for provenance.
 Version 9 real sound pack:
+
+Version 10.1 falling-splat replacement:
+- Wet Impact by Universfield, downloaded from Pixabay
+- https://pixabay.com/sound-effects/film-special-effects-wet-impact-352440/
+- Used under the Pixabay Content License
+
 Recorded sound effects were downloaded from Mixkit under the Mixkit Free License.
 Source: https://mixkit.co/free-sound-effects/
 Mixkit permits commercial and personal use without required attribution.
