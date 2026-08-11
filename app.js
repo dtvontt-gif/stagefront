@@ -7,7 +7,7 @@ const builtins=[
   {name:'Laughter',sub:'Real crowd laugh',icon:'😂',file:'sounds/laughter.wav',color:'#50d890'},
   {name:'Fog Horn',sub:'Real distant horn',icon:'📣',file:'sounds/fog-horn.wav',color:'#56b6ff'},
   {name:'Buzzer',sub:'Wrong answer',icon:'🚨',file:'sounds/buzzer.wav',color:'#ff4d2e'},
-  {name:'Falling Scream + Splat',sub:'Real voice and physical splat',icon:'W!',files:['sounds/fall.wav','sounds/splat.wav'],color:'#e85d3f'},
+  {name:'Falling Scream + Splat',sub:'Long fall and real wet splat',icon:'W!',files:['sounds/fall.wav','sounds/splat.mp3'],color:'#e85d3f'},
   {name:'Air Horn',sub:'Recorded cinematic horn',icon:'AH',file:'sounds/air-horn.wav',color:'#f5b942'},
   {name:'Rimshot',sub:'Real drums and cymbal',icon:'DR',file:'sounds/rimshot.wav',color:'#ef3e33'},
   {name:'Crowd Gasp',sub:'Recorded shocked reaction',icon:'!!',file:'sounds/gasp.wav',color:'#9f7aea'},
@@ -58,5 +58,5 @@ $('#volume').oninput=e=>{if(master)master.gain.value=+e.target.value};$('#stopBt
 $('#recordBtn').onclick=toggleRecording;
 $('#micSetupBtn').onclick=setupMics;if(navigator.mediaDevices){navigator.mediaDevices.addEventListener?.('devicechange',populateMics);populateMics()}
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e});$('#installBtn').onclick=async()=>{if(!deferredPrompt){alert('On Chromebook: open Chrome’s three-dot menu, choose Cast, save, and share, then Install page as app. If that choice is missing, reload this page once and try again.');return}deferredPrompt.prompt();await deferredPrompt.userChoice;deferredPrompt=null};
-if('serviceWorker'in navigator)navigator.serviceWorker.register('service-worker.js?v=10',{updateViaCache:'none'});renderBuiltins();renderEmptyPads();renderCustom();
+if('serviceWorker'in navigator)navigator.serviceWorker.register('service-worker.js?v=10.1',{updateViaCache:'none'});renderBuiltins();renderEmptyPads();renderCustom();
 
